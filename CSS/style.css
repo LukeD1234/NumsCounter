@@ -16,6 +16,13 @@ h1 {
     color: #30FFAC;
 }
 
+span {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: #00D7FF;
+}
+
 .container {
     height: 100%;
     width: 100%;
@@ -52,3 +59,4 @@ h1 {
     color: #0066B3;
     background: #30FFAC;
 }
+
