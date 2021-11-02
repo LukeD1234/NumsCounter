@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0066B3;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 44px;
+    color: #30FFAC;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#value {
+    font-size: 40px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    margin-top: 20px;
+    border: 2px solid #30FFAC;
+    border-radius: 5px;
+    color: #30FFAC;
+    background: #0066B3;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(.98);
+}
+
+.btn:hover {
+    color: #0066B3;
+    background: #30FFAC;
+}
